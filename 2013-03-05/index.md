@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <a href="http://www.flickr.com/photos/hendry/8537328132/" title="H&amp;T3 by Kai Hendry, on Flickr"><img src="http://farm9.staticflickr.com/8091/8537328132_9347fcc132.jpg" width="500" height="375" alt="H&amp;T3"></a>
 
 * Andrei Popescu - showcasing binary file API and index DB for an [offline video player](https://github.com/Webconverger/video-cache), that works on Android's Chrome

@@ -1,3 +1,6 @@
+---
+layout: default
+---
 10th Singapore Hack and Tell, 2015-07-02
 ========================================
 

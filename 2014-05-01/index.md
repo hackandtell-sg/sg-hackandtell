@@ -1,3 +1,6 @@
+---
+layout: default
+---
 8th Singapore Hack and Tell, 2014-05-01
 =======================================
 

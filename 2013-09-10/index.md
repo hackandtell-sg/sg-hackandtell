@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Hack and Tell, 2013-09-10
 
 Dude, it was *awesome*, you totally missed out:

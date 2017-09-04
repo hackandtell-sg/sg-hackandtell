@@ -1,3 +1,6 @@
+---
+layout: default
+---
 6th Singapore Hack and Tell, 2014-01-28
 =======================================
 

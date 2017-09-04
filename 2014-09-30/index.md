@@ -1,3 +1,6 @@
+---
+layout: default
+---
 9th Singapore Hack and Tell, 2014-09-30
 =======================================
 

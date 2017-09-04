@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <!-- Those who told on 2013-01-29 -->
 
 * Stephan February - [Aquaponics](http://www.aquaponics.sg)

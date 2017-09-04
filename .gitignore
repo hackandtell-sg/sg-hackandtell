@@ -1,4 +1,4 @@
 subs/
 
-# generated from mdwn
-*.html
+# Jekyll
+_site/
