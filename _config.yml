@@ -1,3 +1,4 @@
+exclude: ["CNAME", "README.md", "default.nix"]
 permalink: /meetups/:title/
 
 # content-related settings
