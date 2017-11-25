@@ -44,15 +44,11 @@ layout: default
 		<div>
 			<h1>Past Meetups</h1>
 			<ol>
-				<li>
-					<a href="#">2015-07-02</a>
-				</li>
-				<li>
-					<a href="#">2015-07-02</a>
-				</li>
-				<li>
-					<a href="#">2015-07-02</a>
-				</li>
+				{% for meetup in site.posts %}
+					<li>
+						<a href="{{ meetup.url }}">{{ meetup.title }}</a>
+					</li>
+				{% endfor %}
 			</ol>
 		</div>
 	</section>

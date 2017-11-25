@@ -1,3 +1,6 @@
+permalink: /meetups/:title/
+
+# content-related settings
 cfp-url: https://forms.google.com/blah
 meetup-url: https://meetup.com/something
 
