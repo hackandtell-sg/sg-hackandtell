@@ -1,25 +1,81 @@
 body {
-	background: #ffffff;
-	font-size: 1em;
-	font-family: monospace;
-	margin: 5%;
-}
-
-.sub {
-	color: green;
-}
-
-.un {
-	color: red;
-}
-
-img { max-width: 100% }
-
-header, footer {
-	margin-left: auto;
-	margin-right: auto;
-	width: 20em;
+	font-family: inconsolata, monospace;
+	font-size: 2vw;
+	/* width: 1000px; */
+	margin: 2rem auto;
 	text-align: center;
 }
 
-input { padding: 1em; width: 15em; margin: 0.5em; }
+a {
+	color: inherit;
+}
+
+a:hover {
+	opacity: 0.8;
+}
+
+ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.wrapper > * {
+	background: aliceblue;
+	margin: 1rem;
+	padding: 1rem;
+	width: 34vw;
+	height: 34vw;
+	color: #f9f9f9;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper > :nth-child(1) {
+	background: transparent;
+	border: 2px dashed #ac4748;
+	color: #501717;
+}
+
+.wrapper > :nth-child(2) {
+	background: #BD5532;
+}
+
+.wrapper > :nth-child(3) {
+	background: #73C8A9;
+	color: white;
+}
+
+.wrapper > :nth-child(4) {
+	background: #DEE1B6;
+	color: #4f503b;
+}
+
+.wrapper > :nth-child(5) {
+	background: #373B44;
+}
+
+.wrapper > :nth-child(6) {
+	background: #E1B866;
+}
+
+@media (max-width: 760px) {
+	body {
+		font-size: 4.2vw;
+	}
+
+	.wrapper > * {
+		width: 75vw;
+		height: 75vw;
+	}
+
+}
+
