@@ -2,8 +2,8 @@ exclude: ["CNAME", "README.md", "default.nix"]
 permalink: /meetups/:title/
 
 # content-related settings
-cfp-url: https://forms.google.com/blah
-meetup-url: https://meetup.com/something
+cfp-url: https://docs.google.com/forms/d/1IXU0Oa0waMjB7-_CqL42vrUmASb9UoM_F_y_Gshi9r4/edit
+meetup-url: https://www.meetup.com/Hack-Tell-Singapore/
 
 next-meetup:
   enabled: false
