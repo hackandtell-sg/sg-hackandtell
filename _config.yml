@@ -1,6 +1,8 @@
 cfp-url: https://forms.google.com/blah
+meetup-url: https://meetup.com/something
 
 next-meetup:
+  enabled: false
   title: Hack and Tell at Nugit!
   url: https://meetup.com/next-meetup
   date: 18 October 2017

@@ -19,13 +19,21 @@ layout: default
 	<section>
 		<div>
 			<h1>Next Meetup</h1>
-			<p>
-				{{ site.next-meetup.title}}
-			</p>
-			<p>{{ site.next-meetup.date }}</p>
-			<p>
-				<a href="{{ site.next-meetup.url }}">RSVP</a>
-			</p>
+			{% if site.next-meetup.enabled %}
+				<p>
+					{{ site.next-meetup.title}}
+				</p>
+				<p>{{ site.next-meetup.date }}</p>
+				<p>
+					<a href="{{ site.next-meetup.url }}">RSVP</a>
+				</p>
+			{% else %}
+				<p>To be announced</p>
+
+				<p>
+					<a href="{{ site.meetup-url }}">Join us on Meetup</a>
+				</p>
+			{% endif %}
 			<p>
 				<a href="{{ site.cfp-url }}">Submit a talk</a>
 			</p>
