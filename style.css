@@ -1,7 +1,6 @@
 body {
-	font-family: inconsolata, monospace;
+	font-family: 'Inconsolata', monospace;
 	font-size: 2vw;
-	/* width: 1000px; */
 	margin: 2rem auto;
 	text-align: center;
 }
@@ -78,4 +77,3 @@ ol {
 	}
 
 }
-
