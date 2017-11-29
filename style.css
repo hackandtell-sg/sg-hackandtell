@@ -1,12 +1,14 @@
 body {
 	font-family: 'Inconsolata', monospace;
 	font-size: 2vw;
+	line-height: 1.2;
 	margin: 2rem auto;
-	text-align: center;
 }
 
 a {
+	border-bottom: 1px solid;
 	color: inherit;
+	text-decoration: none;
 }
 
 a:hover {
@@ -25,7 +27,12 @@ ol {
 	justify-content: center;
 }
 
-.wrapper > * {
+/* home */
+.wrapper-home {
+	text-align: center;
+}
+
+.wrapper-home > * {
 	margin: 1rem;
 	padding: 1rem;
 	width: 34vw;
@@ -37,31 +44,31 @@ ol {
 	align-items: center;
 }
 
-.wrapper > :nth-child(1) {
+.wrapper-home > :nth-child(1) {
 	background: transparent;
 	border: 2px dashed #ac4748;
 	color: #501717;
 }
 
-.wrapper > :nth-child(2) {
+.wrapper-home > :nth-child(2) {
 	background: #BD5532;
 }
 
-.wrapper > :nth-child(3) {
+.wrapper-home > :nth-child(3) {
 	background: #73C8A9;
 	color: white;
 }
 
-.wrapper > :nth-child(4) {
+.wrapper-home > :nth-child(4) {
 	background: #DEE1B6;
 	color: #4f503b;
 }
 
-.wrapper > :nth-child(5) {
+.wrapper-home > :nth-child(5) {
 	background: #373B44;
 }
 
-.wrapper > :nth-child(6) {
+.wrapper-home > :nth-child(6) {
 	background: #E1B866;
 }
 
@@ -70,9 +77,49 @@ ol {
 		font-size: 4.2vw;
 	}
 
-	.wrapper > * {
+	.wrapper-home > * {
 		width: 75vw;
 		height: 75vw;
 	}
 
+}
+
+/* posts */
+.wrapper-post {
+	font-size: 1.4rem;
+}
+
+.wrapper-post header {
+	background: transparent;
+	color: #501717;
+	height: 20vw;
+	margin: 1rem;
+	padding: 1rem;
+	text-align: center;
+	width: 20vw;
+}
+
+.wrapper-post header a {
+	display: block;
+	border: 0;
+}
+
+.wrapper-post header img {
+	width: 85%;
+}
+
+.wrapper-post .post {
+	margin: 1rem;
+	padding: 1rem;
+	width: calc(68vw + 4rem); /* twice the boxes on the home page */
+	border: 2px dashed #ac4748;
+	border-width: 2px 0;
+}
+
+.wrapper-post .post img {
+	max-width: 100%;
+}
+
+.wrapper-post .post-meta {
+	color: #999;
 }
