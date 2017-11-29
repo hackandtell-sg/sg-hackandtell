@@ -84,12 +84,12 @@ ol {
 
 }
 
-/* posts */
-.wrapper-post {
+/* pages */
+.wrapper-page {
 	font-size: 1.4rem;
 }
 
-.wrapper-post header {
+.wrapper-page header {
 	background: transparent;
 	color: #501717;
 	height: 20vw;
@@ -99,27 +99,33 @@ ol {
 	width: 20vw;
 }
 
-.wrapper-post header a {
+.wrapper-page header a {
 	display: block;
 	border: 0;
 }
 
-.wrapper-post header img {
+.wrapper-page header img {
 	width: 85%;
 }
 
-.wrapper-post .post {
+.page-content {
+	border: 2px dashed #ac4748;
+	border-width: 2px 0;
+	line-height: 1.4;
 	margin: 1rem;
 	padding: 1rem;
 	width: calc(68vw + 4rem); /* twice the boxes on the home page */
-	border: 2px dashed #ac4748;
-	border-width: 2px 0;
 }
 
-.wrapper-post .post img {
+.page-content img {
 	max-width: 100%;
 }
 
-.wrapper-post .post-meta {
-	color: #999;
+.page-content a:hover {
+	background: #f9d8d8;
+}
+
+/* posts */
+.post-meta {
+	opacity: 0.5;
 }

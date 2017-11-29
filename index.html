@@ -45,12 +45,20 @@ layout: default
 		<div>
 			<h1>Past Meetups</h1>
 			<ol>
-				{% for meetup in site.posts %}
+				{% for meetup in site.posts limit: 3 %}
 					<li>
-						<a href="{{ meetup.url }}">{{ meetup.title }}</a>
+						<p>
+							<a href="{{ meetup.url }}">{{ meetup.title }}</a><br>
+							<time class="post-meta" datetime="{{ meetup.date }}">
+								{{ meetup.date | date: "%e.%m.%Y" }}
+							</time>
+						</p>
 					</li>
 				{% endfor %}
 			</ol>
+			<p>
+				<a href="/meetups/all/">See all past meetups</a>
+			</p>
 		</div>
 	</section>
 

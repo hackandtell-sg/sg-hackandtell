@@ -1,0 +1,15 @@
+---
+layout: page
+title: Past Meetups
+---
+
+<ol>
+{% for meetup in site.posts %}
+	<li>
+		<a href="{{ meetup.url }}">{{ meetup.title }}</a>
+		<time class="post-meta" datetime="{{ meetup.date }}">
+			{{ meetup.date | date: "%e.%m.%Y" }}
+		</time>
+	</li>
+{% endfor %}
+</ol>
