@@ -7,6 +7,10 @@ This is the source for the website of the Singapore chapter of [Hack && Tell][ht
 1. Install [Jekyll][]
 
         gem install jekyll
+        
+   **or** use Nix
+   
+        nix-shell
 
 2. Run the jekyll server
 
