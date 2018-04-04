@@ -1,6 +1,6 @@
 # Hack && Tell Singapore
 
-This is the source for the website of the Singapore chapter of [Hack && Tell][ht].
+This is the source for the [website of the Singapore chapter][htsg] of [Hack && Tell][ht].
 
 ## Run locally
 
@@ -16,5 +16,6 @@ This is the source for the website of the Singapore chapter of [Hack && Tell][ht
 
         jekyll serve
 
-[ht]: http://hackandtell.org/
+[ht]: https://hackandtell.org/
+[htsg]: https://sg.hackandtell.org/
 [Jekyll]: https://jekyllrb.com
