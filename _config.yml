@@ -2,11 +2,11 @@ exclude: ["CNAME", "README.md", "default.nix"]
 permalink: /meetups/:title/
 
 # content-related settings
-cfp-url: https://docs.google.com/forms/d/1IXU0Oa0waMjB7-_CqL42vrUmASb9UoM_F_y_Gshi9r4/edit
+cfp-url: https://docs.google.com/forms/d/1BFOO1Q6U1V0Nns2zsFRWphHA3_3T0BimKbhdjkgBxCY
 meetup-url: https://www.meetup.com/Hack-Tell-Singapore/
 
 next-meetup:
-  enabled: false
-  title: Hack and Tell at Nugit!
-  url: https://meetup.com/next-meetup
-  date: 18 October 2017
+  enabled: true
+  title: Hack and Tell - May 2018 Edition!
+  url: https://www.meetup.com/Hack-Tell-Singapore/events/249338761/
+  date: 3 May 2018
