@@ -4,6 +4,7 @@ permalink: /meetups/:title/
 # content-related settings
 cfp-url: https://docs.google.com/forms/d/1BFOO1Q6U1V0Nns2zsFRWphHA3_3T0BimKbhdjkgBxCY
 meetup-url: https://www.meetup.com/Hack-Tell-Singapore/
+engineers-sg-url: https://engineers.sg/organization/sg-hack-tell--184
 
 next-meetup:
   enabled: true
